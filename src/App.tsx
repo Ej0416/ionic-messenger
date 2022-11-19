@@ -18,7 +18,10 @@ import '@ionic/react/css/padding.css';
 import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 
+// pages
+import Auth from './pages/Auth';
 /* Theme variables */
+import './css/main.css';
 import './theme/variables.css';
 
 // pages
@@ -31,6 +34,8 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonRouterOutlet>
         <Route path='/chat-list' component={ChatList} />
+        <Route path='/auth' component={Auth} />
+        <Route path='/' component={Auth} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
