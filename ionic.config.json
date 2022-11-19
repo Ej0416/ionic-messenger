@@ -1,0 +1,7 @@
+{
+  "name": "ionic-messanger",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
